@@ -20,12 +20,14 @@ const Projects = () => (
       <a href="/projects/OrderUp">
       <img src="./images/orderUpSS1.png" alt="orderUp1" />
       </a>
-      <p>This is a project</p>
+      <p>A restaurant app that manages orders and menu items</p>
     </div>
     <div className="projectCard">
-      <h4>Order Up</h4>
-      <img src="./images/orderUpSS1.png" alt="orderUp1" />
-      <p>This is a project</p>
+      <h4>Gif World</h4>
+      <a href="/projects/GifWorld">
+      <img src="./images/GifWorldSS1.png" alt="Gifworld" />
+      </a>
+      <p>A simple gif search app using the giphy API</p>
     </div>
   </div>
 );
