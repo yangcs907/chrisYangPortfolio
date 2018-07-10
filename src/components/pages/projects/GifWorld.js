@@ -1,5 +1,7 @@
 import React from "react";
 
+import GifWorldSS1 from "./projectImages/GifWorldSS1.png";
+
 const GifWorld = () => (
   <div className="projectPage">
     <div className="projectDesc">
@@ -20,9 +22,10 @@ const GifWorld = () => (
         <li>CSS</li>
       </ul>
       <h5>Visit</h5>
-      <a href="https://orderup-restaurant-app.herokuapp.com/">Deployed Site</a>
+      <a href="https://gif-world.herokuapp.com/">Deployed Site</a>
     </div>
     <div className="projectIMG">
+      <img src={GifWorldSS1} alt="GifWorld" />
     </div>
   </div>
 );

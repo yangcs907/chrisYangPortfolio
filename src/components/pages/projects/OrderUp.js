@@ -1,7 +1,7 @@
 import React from 'react';
 
 import orderUpSS1 from "./projectImages/orderUpSS1.png";
-import orderUpSS2  from "./projectImages/orderUpSS2.png";
+import orderUpSS2 from "./projectImages/orderUpSS2.png";
 
 
 const OrderUp = () => (

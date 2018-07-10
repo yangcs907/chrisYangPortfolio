@@ -35,8 +35,8 @@ const About = () => (
     <p>Georgia State University - B.A Political Science - 2009-2015</p>
     <p>Georgia Institute of Technology Coding Bootcamp - November 2017-May 2018</p>
     </div>
-    <div className="computer">
-      <img src="./images/code.jpg" alt="code" />
+    <div className="face">
+      <img src="./images/face.jpg" alt="code" />
     </div>
 
 

@@ -29,6 +29,20 @@ const Projects = () => (
       </a>
       <p>A simple gif search app using the giphy API</p>
     </div>
+    <div className="projectCard">
+      <h4>JS Drum Kit</h4>
+      <a href="/projects/DrumKit">
+      <img src="./images/DrumKit.png" alt="DrumKit" />
+      </a>
+      <p>Neat little interactive drum kit site. Use your keyboard to create sounds!</p>
+    </div>
+    <div className="projectCard">
+      <h4>JS Drum Kit</h4>
+      <a href="/projects/DrumKit">
+      <img src="./images/DrumKit.png" alt="DrumKit" />
+      </a>
+      <p>Neat little interactive drum kit site. Use your keyboard to create sounds!</p>
+    </div>
   </div>
 );
 
