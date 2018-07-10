@@ -37,11 +37,11 @@ const Projects = () => (
       <p>Neat little interactive drum kit site. Use your keyboard to create sounds!</p>
     </div>
     <div className="projectCard">
-      <h4>JS Drum Kit</h4>
-      <a href="/projects/DrumKit">
-      <img src="./images/DrumKit.png" alt="DrumKit" />
+      <h4>Trivia Game</h4>
+      <a href="/projects/TriviaGame">
+      <img src="./images/TriviaGameSS1.png" alt="TriviaGame" />
       </a>
-      <p>Neat little interactive drum kit site. Use your keyboard to create sounds!</p>
+      <p>Simple timed trivia game</p>
     </div>
   </div>
 );

@@ -5,7 +5,7 @@ import DrumKit from "./projectImages/DrumKit.png";
 const JSDrumKit = () => (
   <div className="projectPage">
     <div className="projectDesc">
-      <h1>Gif World</h1>
+      <h1>JS Drum Kit</h1>
       <p className="division">_________________</p>
       <h5>About</h5>
       <p>This is a personal project of mine, using ES6 Javascript, HTML and CSS to create an interactive drum kit. </p>

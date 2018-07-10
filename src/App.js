@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import OrderUp from "./components/pages/projects/OrderUp";
 import GifWorld from "./components/pages/projects/GifWorld";
 import JSDrumKit from "./components/pages/projects/JSDrumKit";
-
+import TriviaGame from "./components/pages/projects/TriviaGame";
 const App = () => (
   <Router>
     <div>
@@ -21,6 +21,7 @@ const App = () => (
       <Route path="/projects/OrderUp" component={OrderUp} />
       <Route path="/projects/GifWorld" component={GifWorld} />
       <Route path="/projects/DrumKit" component={JSDrumKit} />
+      <Route path="/projects/TriviaGame" component={TriviaGame} />
     </div>
   </Router>
 );
