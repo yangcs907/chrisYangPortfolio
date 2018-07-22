@@ -4,6 +4,7 @@ import TriviaGameSS1 from "./projectImages/TriviaGameSS1.png";
 import TriviaGameSS2 from "./projectImages/TriviaGameSS2.png";
 
 const TriviaGame = () => (
+  <div className="projectContainer">
   <div className="projectPage">
     <div className="projectDesc">
       <h1>Trivia Game</h1>
@@ -26,6 +27,7 @@ const TriviaGame = () => (
       <img src={TriviaGameSS2} alt="TriviaGame2" />
     </div>
   </div>
+</div>
 );
 
 export default TriviaGame;

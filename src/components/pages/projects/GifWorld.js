@@ -3,6 +3,7 @@ import React from "react";
 import GifWorldSS1 from "./projectImages/GifWorldSS1.png";
 
 const GifWorld = () => (
+  <div className="projectContainer">
   <div className="projectPage">
     <div className="projectDesc">
       <h1>Gif World</h1>
@@ -28,6 +29,7 @@ const GifWorld = () => (
       <img src={GifWorldSS1} alt="GifWorld" />
     </div>
   </div>
+</div>
 );
 
 export default GifWorld;

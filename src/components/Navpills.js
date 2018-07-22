@@ -1,24 +1,19 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react";
 import "./pages/index.css"
 
-const Navpills = () => (
-  <div className="navpills">
-    <ul className="nav nav-tabs">
-      <li>
-      <Link to="/">Home</Link>
-      </li>
-      <li>
-      <Link to="/about">Resumé</Link>
-      </li>
-      <li>
-      <Link to="/projects">Projects</Link>
-      </li>
-      <li>
-      <Link to="/contact">Contact</Link>
-      </li>
-    </ul>
-  </div>
-);
+class Navpills extends Component {
+    render() {
+      return(
+    <nav className="nav-wrapper">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">Resumé</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+  </nav>
+  )
+  }
+};
 
 export default Navpills;

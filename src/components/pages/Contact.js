@@ -17,19 +17,18 @@ const Contact = props => (
     <h1>Contact</h1>
     <p className="division">_____________</p>
   </div>
+  <div className="container">
   <div className="contactCard">
-    <h1><i className="far fa-envelope"></i></h1>
+    <i className="far fa-envelope"></i>
     <p className="division">_____________</p>
     <p><a href="mailto:yangcs907@gmail.com">yangcs907@gmail.com</a></p>
   </div>
   <div className="contactCard">
-    <h1><i className="fas fa-phone-square"></i></h1>
+    <i className="fas fa-phone-square"></i>
     <p className="division">_____________</p>
     <p>+1 404 993 3556</p>
   </div>
-  <div className="faceShot">
-    <img src="./images/faceshot.jpg" alt="face"/>
-  </div>
+</div>
 </div>
 );
 

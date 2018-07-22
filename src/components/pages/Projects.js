@@ -15,6 +15,7 @@ const Projects = () => (
       <h1>Projects</h1>
       <p className="division">_____________</p>
     </div>
+    <div className="projectContainer">
     <div className="projectCard">
       <h4>Order Up</h4>
       <a href="/projects/OrderUp">
@@ -43,6 +44,7 @@ const Projects = () => (
       </a>
       <p>Simple timed trivia game</p>
     </div>
+  </div>
   </div>
 );
 

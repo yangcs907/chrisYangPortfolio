@@ -3,6 +3,7 @@ import React from "react";
 import DrumKit from "./projectImages/DrumKit.png";
 
 const JSDrumKit = () => (
+  <div className="projectContainer">
   <div className="projectPage">
     <div className="projectDesc">
       <h1>JS Drum Kit</h1>
@@ -23,6 +24,7 @@ const JSDrumKit = () => (
       <img src={DrumKit} alt="DrumKit" />
     </div>
   </div>
+</div>
 );
 
 export default JSDrumKit;

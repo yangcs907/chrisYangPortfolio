@@ -5,6 +5,7 @@ import orderUpSS2 from "./projectImages/orderUpSS2.png";
 
 
 const OrderUp = () => (
+  <div className="projectContainer">
   <div className="projectPage">
     <div className="projectDesc">
       <h1>Order Up</h1>
@@ -32,6 +33,7 @@ const OrderUp = () => (
       <img src={orderUpSS2} alt="orderup1" />
     </div>
   </div>
+</div>
 );
 
 

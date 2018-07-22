@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navpills from "./components/Navpills";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -22,7 +22,10 @@ const App = () => (
       <Route path="/projects/GifWorld" component={GifWorld} />
       <Route path="/projects/DrumKit" component={JSDrumKit} />
       <Route path="/projects/TriviaGame" component={TriviaGame} />
+    <div className="footer">
+      <Footer />
     </div>
+  </div>
   </Router>
 );
 
