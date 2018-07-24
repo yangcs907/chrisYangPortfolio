@@ -22,10 +22,10 @@ const App = () => (
       <Route path="/projects/GifWorld" component={GifWorld} />
       <Route path="/projects/DrumKit" component={JSDrumKit} />
       <Route path="/projects/TriviaGame" component={TriviaGame} />
-    <div className="footer">
-      <Footer />
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
-  </div>
   </Router>
 );
 

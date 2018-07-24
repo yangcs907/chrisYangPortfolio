@@ -5,12 +5,12 @@ import "./index.css";
 
 const Contact = props => (
   <div>
-  <div className="home">
-    <h1>Chris Yang</h1>
-    <p>___________________________</p>
-    <p className="subHead">Web Developer      |      <a href="https://github.com/yangcs907"><i className="fab fa-github"></i></a>     |     <a href="https://www.linkedin.com/in/chris-yang-53a66636/">
-          <i className="fab fa-linkedin"></i>
-          </a>
+    <div className="home">
+      <h1>Chris Yang</h1>
+      <p>___________________________</p>
+      <p className="subHead">Web Developer      |      <a href="https://github.com/yangcs907"><i className="fab fa-github"></i></a>     |     <a href="https://www.linkedin.com/in/chris-yang-53a66636/">
+        <i className="fab fa-linkedin"></i>
+      </a>
     </p>
   </div>
   <div className="pageHead">
@@ -18,17 +18,17 @@ const Contact = props => (
     <p className="division">_____________</p>
   </div>
   <div className="container">
-  <div className="contactCard">
-    <i className="far fa-envelope"></i>
-    <p className="division">_____________</p>
-    <p><a href="mailto:yangcs907@gmail.com">yangcs907@gmail.com</a></p>
+    <div className="contactCard">
+      <i className="far fa-envelope"></i>
+      <p className="division">_____________</p>
+      <p><a href="mailto:yangcs907@gmail.com">yangcs907@gmail.com</a></p>
+    </div>
+    <div className="contactCard">
+      <i className="fas fa-phone-square"></i>
+      <p className="division">_____________</p>
+      <p>+1 404 993 3556</p>
+    </div>
   </div>
-  <div className="contactCard">
-    <i className="fas fa-phone-square"></i>
-    <p className="division">_____________</p>
-    <p>+1 404 993 3556</p>
-  </div>
-</div>
 </div>
 );
 
